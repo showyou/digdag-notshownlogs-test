@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  digdag:
+    build: .
+    tty: true
+    volumes: 
+      - ./src/:/tmp/src
+    ports:
+      - "65435:65432"   

@@ -1,0 +1,11 @@
+
+ $ docker-compose up
+
+ $ docker exec -it digdag-notshownlogs-test_digdag_1 /bin/bash
+
+ # /usr/local/bin/digdag server --memory -b 0.0.0.0
+
+ # cd /tmp/src
+
+ # digdag push sample
+

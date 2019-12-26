@@ -1,0 +1,14 @@
+timezone: Asia/Tokyo
+
+schedule:
+    minutes_interval>: 1
+    skip_delayed_by: 1m
+
++setup:
+    echo>: start ${session_time}
+
++hoge:
+    echo>: 1000
+
++teardown:
+    echo>: finish ${session_time}
